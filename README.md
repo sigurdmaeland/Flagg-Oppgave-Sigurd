@@ -38,17 +38,15 @@ whiteBlueBackground2
 
 #Flagg oppgave 2.metode
 
-rod = rectangle(400, 200, "solid", "red")
+rod = rectangle(400, 225, "solid", "red")
 hvit1 = rectangle(400, 50, "solid", "white")
-hvit2 = rectangle(50, 200, "solid", "white")
+hvit2 = rectangle(50, 225, "solid", "white")
 blue1 = rectangle(450, 25, "solid", "blue")
-blue2 = rectangle(25, 200, "solid", "blue")
+blue2 = rectangle(25, 225, "solid", "blue")
 
-
-
-flagg = empty-scene(400,175)
- put-image(blue1, 200, 85,
-  put-image(blue2, 150,85,
-    put-image(hvit1, 200, 85, 
-      put-image(hvit2, 150, 85,
-        put-image(rod, 200, 100, flagg)))))
+flagg = empty-scene(400,225)
+put-image(blue1, 200, 113,
+  put-image(blue2, 125,113,
+    put-image(hvit1, 200, 113,
+      put-image(hvit2, 125, 113,
+        put-image(rod, 200, 113, flagg)))))
