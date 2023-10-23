@@ -6,12 +6,12 @@ white2 = rectangle(50, 200, "solid", "white") #hvit rektangel som skal strekke s
 blue1 = rectangle(25, 200, "solid", "blue")   #blått rektangel som skal strekke seg loddrett i flagget.
 blue2 = rectangle(400, 25, "solid", "blue")   #blått rektangel som skal strekke seg vannrett i flagget.
 
-redWhite = overlay(white1, white2)  #Bruker overlay-funkjson for å legge rektanglene over hverandre.  
-redWhite2 = overlay(white2, redWhite) 
+redWhite = overlay(white1, white2)  #Bruker overlay-funksjon for å legge hvite rektanglene over hverandre som et kryss.  
+redWhite2 = overlay(white2, redWhite) #Overlay igjen for å legge hvite krysset over flaggets røde rektangel. 
 
-redWhiteBackground1 = place-image(
+redWhiteBackground1 = place-image( 
   rectangle(50, 200, "solid", "white"),
-  115, 100, redBackground)                
+  115, 100, redBackground) 
   
 
 
@@ -32,3 +32,23 @@ whiteBlueBackground2 = place-image(
   115, 100, whiteBlueBackground1)
 
 whiteBlueBackground2
+
+
+
+
+#Flagg oppgave 2.metode.
+
+rod = rectangle(400, 200, "solid", "red")
+hvit1 = rectangle(400, 50, "solid", "white")
+hvit2 = rectangle(50, 200, "solid", "white")
+blue1 = rectangle(450, 25, "solid", "blue")
+blue2 = rectangle(25, 200, "solid", "blue")
+
+
+
+flagg = empty-scene(400,175)
+ put-image(blue1, 200, 85,
+  put-image(blue2, 150,85,
+    put-image(hvit1, 200, 85, 
+      put-image(hvit2, 150, 85,
+        put-image(rod, 200, 100, flagg)))))
