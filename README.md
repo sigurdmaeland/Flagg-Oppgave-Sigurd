@@ -38,7 +38,7 @@ whiteBlueBackground2
 
 #Flagg oppgave 2.metode
 
-rod = rectangle(400, 225, "solid", "red")
+rod = rectangle(400, 225, "solid", "red")  
 hvit1 = rectangle(400, 50, "solid", "white")
 hvit2 = rectangle(50, 225, "solid", "white")
 blue1 = rectangle(450, 25, "solid", "blue")
