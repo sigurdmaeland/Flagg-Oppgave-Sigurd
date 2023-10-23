@@ -1,5 +1,5 @@
 # Flagg-Oppgave-Sigurd
-
+#Flagg oppgave 1. metode
 redBackground = rectangle(400, 200, "solid", "red")  #legger til flaggets rektangulære format 400x200 px, rød.
 white1 = rectangle(400, 50, "solid", "white") #hvit rektangel som skal strekke seg vannrett i flagget.
 white2 = rectangle(50, 200, "solid", "white") #hvit rektangel som skal strekke seg loddrett i flagget.
@@ -36,7 +36,7 @@ whiteBlueBackground2
 
 
 
-#Flagg oppgave 2.metode.
+#Flagg oppgave 2.metode
 
 rod = rectangle(400, 200, "solid", "red")
 hvit1 = rectangle(400, 50, "solid", "white")
